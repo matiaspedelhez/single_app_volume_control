@@ -1,6 +1,5 @@
 # single_app_volume_control
-This code is used to control the volume of an audio instance using hotkeys. It can target any process that creates an audio instance.
-In this case scenario, it is adapted to the process **"Spotify.exe"**, but you can use it with whatever process that creates an audio instance in Windows. Tested in Windows 11 and 10.
+This code is designed to control the volume of an audio instance using keyboard shortcuts (hotkeys). It can target any application that plays audio on your system. In this example, it is configured for the **'Spotify.exe'** process, but you can adapt it for any application that creates an audio instance in Windows. It has been tested on both Windows 11 and 10.
 
 ## How it works
 It uses AudioUtilities library which has direct access to the core Windows audio library.
